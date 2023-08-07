@@ -1,4 +1,7 @@
 {
+  "control": {
+    "show_log": true
+  },
   "profile": {
     "name": "Elden Lord",
     "at": "@EldenRing",

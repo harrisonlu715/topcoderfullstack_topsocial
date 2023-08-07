@@ -1,5 +1,7 @@
 import { getPath, getInfo, getPathWithID } from "./utils.js";
 
+
+
 export async function getProfile() {
   const path = getPath('profile')
   const response = await getInfo(path)

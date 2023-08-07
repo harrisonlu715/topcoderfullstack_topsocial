@@ -6,7 +6,8 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "data": "json-server --port 12345 --watch ./data/db.json"
+    "data": "json-server --port 12345 --watch ./data/db.json",
+    "go": "yarn && yarn data & yarn dev"
   },
   "devDependencies": {
     "vite": "^3.2.3"

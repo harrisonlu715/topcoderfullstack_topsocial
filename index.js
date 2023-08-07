@@ -11,6 +11,14 @@ import {
   left_profile_name,
   left_profile_at,
   create_sidebar,
+
+  // Description
+
+  create_description,
+  middle_form,
+  middle_form_img,
+  middle_form_input_text,
+
 } from '@/js/common' //vite.config.js 里面定义 @ --> './src'
 
 /* NAV */
@@ -26,7 +34,11 @@ left_profile_at.textContent = profile.at
 create_sidebar(sidebar)
 /* MIDDLE */
 
+create_description(highline.description)
+
 /* FORM */
+middle_form_img.src = profile.img_src
+middle_form_input_text.placeholder = `What's on your mind, ${profile.name}?`
 
 /* HIGHLINE */
 

@@ -11,6 +11,8 @@ export const navbar_container_create_img = navbar_container.querySelector("img")
 export const main = document.querySelector("main")
 export const main_container = main.querySelector(".container")
 
+
+
 /* Main Left */
 export const left = main_container.querySelector(".main-left")
 export const left_profile = left.querySelector(".profile")
@@ -38,12 +40,38 @@ export const create_sidebar = (info = []) => {
   })
 }
 
+/* Main Middle */
+
+export const middle = main_container.querySelector(".main-middle")
+export const middle_highline = middle.querySelector(".highline")
+
 /* Create Description */
 export const create_description = (info = []) => {
-  
+  info.forEach((item) => {
+    const id = item.id
+    const title = item.title
+    const background = item.background
+    const img_src = item.img_src
+    const descriptionDom = document.createElement("div")
+    descriptionDom.classList.add("description")
+    descriptionDom.innerHTML = `<div class="profile-photo">
+        <img alt="profile photo">
+      </div>
+      <p></p>
+      `
+    middle_highline.appendChild(descriptionDom)
+    descriptionDom.style.backgroundImage = `url(${background})`
+    descriptionDom.querySelector("img").src = img_src
+    descriptionDom.querySelector("p").textContent = title
+  })
 }
 
-/* Main Middle */
+export const middle_form = middle.querySelector("form")
+export const middle_form_img = middle_form.querySelector("img")
+export const middle_form_input_text = middle_form.querySelector("#create-post")
+
+
+
 
 
 /* Create News */

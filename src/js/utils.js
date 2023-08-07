@@ -1,5 +1,6 @@
 import axios from "axios";
 import path from "path-browserify";
+import { control } from "/data/db.json"
 
 export function isNumber(element) {
   return element === +element
@@ -44,4 +45,8 @@ export async function getInfo(path) {
   }
 }
 
+export function log(...props) {
+  if (control.show_log)
+  console.log(...props) 
+}
 
