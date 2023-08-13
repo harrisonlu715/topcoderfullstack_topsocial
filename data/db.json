@@ -118,6 +118,7 @@
         "background": "/images/highline/highline_6.jpeg",
         "img_src": "/images/profile/profile_7.png"
       }
+     
 
     ]
   },
@@ -132,6 +133,13 @@
       },
       "picture": {
         "img_src": "/images/post/post_5.jpeg"
+      },
+
+      "control": {
+        "like": "uil uil-heart-alt control-heart",
+        "comment": "uil uil-comment-dots",
+        "share": "uil uil-share-alt",
+        "mark": "uil uil-bookmark"
       },
       "comment": {
         "img_src_list": [
@@ -156,6 +164,12 @@
       "picture": {
         "img_src": "/images/post/post_6.jpeg"
       },
+      "control": {
+        "like": "uil uil-heart-alt control-heart",
+        "comment": "uil uil-comment-dots",
+        "share": "uil uil-share-alt",
+        "mark": "uil uil-bookmark"
+      },
       "comment": {
         "img_src_list": [
           "/images/profile/profile_5.png",
@@ -178,6 +192,12 @@
       },
       "picture": {
         "img_src": "/images/post/post_7.jpeg"
+      },
+      "control": {
+        "like": "uil uil-heart-alt control-heart",
+        "comment": "uil uil-comment-dots",
+        "share": "uil uil-share-alt",
+        "mark": "uil uil-bookmark"
       },
       "comment": {
         "img_src_list": [
@@ -202,6 +222,12 @@
       "picture": {
         "img_src": "/images/post/post_8.jpeg"
       },
+      "control": {
+        "like": "uil uil-heart-alt control-heart",
+        "comment": "uil uil-comment-dots",
+        "share": "uil uil-share-alt",
+        "mark": "uil uil-bookmark"
+      },
       "comment": {
         "img_src_list": [
           "/images/profile/profile_5.png",
@@ -224,6 +250,12 @@
       },
       "picture": {
         "img_src": "/images/post/post_9.jpeg"
+      },
+      "control": {
+        "like": "uil uil-heart-alt control-heart",
+        "comment": "uil uil-comment-dots",
+        "share": "uil uil-share-alt",
+        "mark": "uil uil-bookmark"
       },
       "comment": {
         "img_src_list": [

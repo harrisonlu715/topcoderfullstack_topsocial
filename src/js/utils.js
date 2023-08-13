@@ -50,3 +50,6 @@ export function log(...props) {
   console.log(...props) 
 }
 
+export const createDom = (domName = 'div') => {
+  return document.createElement(domName)
+}
